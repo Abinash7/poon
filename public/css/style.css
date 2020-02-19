@@ -1,4 +1,6 @@
-	  
+
+/* Body,Header style */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ header {
     position: fixed;
     float: left;
     margin: 16px 46px;
-    color: #2f1642;
+    color: #7bbd43;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
@@ -46,7 +48,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: green;
+    background: #7a4198;
 }
 
 nav ul li {
