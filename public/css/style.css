@@ -10,6 +10,7 @@ html, body {
 body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
+   
 }
 
 header {
@@ -48,7 +49,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: #7a4198;
+    background: #3d2160;
 }
 
 nav ul li {
@@ -106,6 +107,16 @@ nav ul li a {
           display: block;
     }
 
+}
+
+/* Homepage-About */
+.container{
+    height: 200px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #aacb3b;
+    color: #fff;
+    font-family: monospace;
 }
 
     
