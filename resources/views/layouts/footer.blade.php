@@ -42,8 +42,10 @@
         <div class="col"><a class="social-inner" href="#"><span class="fa fa-instagram fa-3x social"></span><span>instagram</span></a></div>
         <div class="col"><a class="social-inner" href="#"><span class="fa fa-google-plus-square fa-3x social"></span><span>google</span></a></div>
     </div>
-    
-   
+    <div class="reserved-bot">
+        <p class="text-center">Copyright ©</p>
+    </div>
+
 </footer>
 
 <!-- js combined -->

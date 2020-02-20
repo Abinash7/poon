@@ -186,7 +186,16 @@ ul, ol {
     transition: .22s ease;
 }
 
+/* copyright */
+.reserved-bot{
+     padding-top: 10px;
+     padding-bottom: .1px;
+     background-color: black;
+     margin-top: 20px;
+     margin-left: -20px;
+     margin-right: -20px;}
 
+/* end of copyright */
 /* contact */
 .card{
     color: #7a4198;
