@@ -4,7 +4,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 body {
@@ -17,7 +16,13 @@ header {
     width: 100%;
     background-size: cover;
 }
-
+.content {
+    width: 100%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
 .logo {
     line-height: 60px;
     position: fixed;
@@ -33,6 +38,8 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index: 300;
+
 }
 
 nav ul {
@@ -50,16 +57,17 @@ nav ul {
 
 nav.black ul {
     background: #3d2160;
+    z-index: 1;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 16px;;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #7bbd43;
     font-size: 16px;
 }
 
@@ -108,14 +116,31 @@ nav ul li a {
     }
 
 }
+/* Homepage-About */
+.about {
+    padding: 1.5% 25px 23% 25px;
+    text-align: center;
+    font-size: smaller;
+    background-color: #aacb3b;
+    color: #fff;
+    font-family: monospace;
+}
+/* .about:hover{
+    color: #fff;
+} */
 
 /* footer */
-.context-dark, .bg-gray-dark, .bg-primary {
-    color: rgba(255, 255, 255, 0.8);
-}
 
+.context-dark, .bg-gray-dark, .bg-primary {
+    margin-top: 20px;
+    color:  #7a4198;
+    background-color: #fff;      
+}
+.container{
+    text-align: center;
+}
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
+    color: #7a4198;
 }
 .nav-list li {
     padding-top: 5px;
@@ -144,9 +169,9 @@ ul, ol {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
 }
-.social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
+/* .social-container .col {
+    background-color: #7bbd43;
+} */
 .nav-list li a:before {
     content: "\f14f";
     font: 400 21px/1 "Material Design Icons";
@@ -159,14 +184,7 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
-/* Homepage-About */
-.container{
-    height: 200px;
-    text-align: center;
-    font-size: xx-large;
-    background-color: #aacb3b;
-    color: #fff;
-    font-family: monospace;
-}
+
+
 
     

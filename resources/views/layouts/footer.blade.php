@@ -1,10 +1,12 @@
 @section('footer')
-<footer class="section footer-classic context-dark bg-image" style="background: #29242d ;">
+<footer class="section footer-classic context-dark bg-image">
     <div class="container">
         <div class="row row-30">
             <div class="col-md-4 col-xl-5">
-                <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="Images/poon.png" alt="" width="160" height="80"></a>
-                    <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light"
+                            src="Images/poon.png" alt="" width="160" height="80"></a>
+                    <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion,
+                        business consulting, and marketing.</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -18,7 +20,8 @@
                     <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
                     <dl class="contact-list">
                         <dt>phones:</dt>
-                        <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+                        <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a
+                                href="tel:#">https://karosearch.com</a>
                         </dd>
                     </dl>
             </div>
@@ -35,10 +38,16 @@
         </div>
     </div>
     <div class="row no-gutters social-container">
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        <div class="col"><a class="social-inner"><span class="icon mdi mdi-copyright"></span><span>Created by
+                    pontoon.com</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+                    class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+                    class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+                    class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+                    class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
     </div>
 </footer>
 
