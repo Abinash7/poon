@@ -112,14 +112,17 @@ nav ul li a {
 /* footer */
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
+    text-align:center;
 }
-
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #ffffff;
+    text-align: center;
+
 }
 .nav-list li {
     padding-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .nav-list li a:hover:before {
@@ -159,14 +162,6 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
-/* Homepage-About */
-.container{
-    height: 200px;
-    text-align: center;
-    font-size: xx-large;
-    background-color: #aacb3b;
-    color: #fff;
-    font-family: monospace;
-}
+
 
     

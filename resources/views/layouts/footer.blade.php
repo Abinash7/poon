@@ -1,6 +1,7 @@
 @section('footer')
 <footer class="section footer-classic context-dark bg-image" style="background: #29242d ;">
     <div class="container">
+        <div class="col-md-12">
         <div class="row row-30">
             <div class="col-md-4 col-xl-5">
                 <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="Images/poon.png" alt="" width="160" height="80"></a>
@@ -34,11 +35,11 @@
             </div>
         </div>
     </div>
+    </div>
     <div class="row no-gutters social-container">
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="fa fa-facebook-square fa-3x social"></span><span>Facebook</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="fa fa-instagram fa-3x social"></span><span>instagram</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="fa fa-google-plus-square fa-3x social"></span><span>google</span></a></div>
     </div>
 </footer>
 
