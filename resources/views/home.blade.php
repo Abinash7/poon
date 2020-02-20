@@ -34,22 +34,31 @@
         <div class="col-sm-2"></div>
     </div>
 
-
-
     <!--start of  contact page -->
-    <div class="card bg-danger" style="height: 100px;">
-        <div class="card text-center">
-            <div class="card-body">
-                <h3 class="card-title">
-                    Get In Touch With Us</h3>
-                <p class="card-text">
-                    We will provide you all the required services </p>
-                <a href="#" class="btn btn-danger">ContactUs</a>
-            </div>
+    <div class="contact text-center">
+        <div class="col-lg-12">
+            <h3>Get In Touch With Us</h3>
+            <p>We will provide you all the required services </p>
+            <a href="#" class="btn btn-danger">ContactUs</a>
         </div>
     </div>
     <!-- end of contact page -->
-</div>
 
+    {{-- CAREER Info --}}
+    <div class="career">
+        <div class="col-sm-8">
+            <div class="career-head">
+                YOUR CAREER AT PONTOON
+            </div>
+            <div class="career-body">
+                <p>Do you want to be a part of this company?? Come on let's build it together...</p>
+                <a href="#" class="btn btn-danger">Join Now</a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
+        </div>
+    </div>
+</div>
 
 @endsection

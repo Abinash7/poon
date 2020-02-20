@@ -9,7 +9,6 @@ html, body {
 body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
-   
 }
 
 header {
@@ -22,6 +21,7 @@ header {
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
+    padding-bottom: 15px;
 }
 .logo {
     line-height: 60px;
@@ -133,6 +133,7 @@ nav ul li a {
 
 .context-dark, .bg-gray-dark, .bg-primary {
     margin-top: 20px;
+    padding-top: 1%;
     color:  #7a4198;
     background-color: #fff;      
 }
@@ -160,15 +161,10 @@ ul, ol {
     margin: 0;
 }
 
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+
+.social{
+    padding: 3% 3% 2% 3%;
+    color: #ef5454;
 }
 /* .social-container .col {
     background-color: #7bbd43;
@@ -186,9 +182,27 @@ ul, ol {
     transition: .22s ease;
 }
 
-<<<<<<< HEAD
+.contact .col-lg-12{
+    padding: 1% 30px 1.5% 30px;
+    background-color: #3d2160;
+    color: #7bbd43;
+}
 
-=======
->>>>>>> 0d01b50bf5ddc174fce6462c23fb3ab4be7db566
+/* Career Info */
 
+.career .col-sm-8 .career-head{
+    background: transparent;
+    padding-left: 10%;
+    padding-top: 12%;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.career .col-sm-8 .career-body{
+    padding-left: 10%;
+    font-weight: lighter;
+    font-size: large;
+    font-style: initial;
+}
     
