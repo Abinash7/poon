@@ -186,9 +186,16 @@ ul, ol {
     transition: .22s ease;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0d01b50bf5ddc174fce6462c23fb3ab4be7db566
+/* contact */
+.card{
+    color: #7a4198;
+  
+}
 
+/* Client worked */
+.customer
+{
+    padding:3% 1% 3% 4%;
+}
     
