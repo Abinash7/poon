@@ -135,7 +135,8 @@ nav ul li a {
     margin-top: 20px;
     padding-top: 1%;
     color:  #7a4198;
-    background-color: #fff;      
+    background-color: #fff;
+    font-size: medium;      
 }
 .container{
     text-align: center;
@@ -163,7 +164,7 @@ ul, ol {
 
 
 .social{
-    padding: 3% 3% 2% 3%;
+    padding: 3% 5% 2% 3%;
     color: #ef5454;
 }
 /* .social-container .col {
@@ -190,7 +191,7 @@ ul, ol {
 
 /* Career Info */
 
-.career .col-sm-8 .career-head{
+.career .col-md-8 .career-head{
     background: transparent;
     padding-left: 10%;
     padding-top: 12%;
@@ -199,7 +200,7 @@ ul, ol {
     font-size: xx-large;
 }
 
-.career .col-sm-8 .career-body{
+.career .col-md-8 .career-body{
     padding-left: 10%;
     font-weight: lighter;
     font-size: large;
@@ -207,8 +208,8 @@ ul, ol {
 }
 /* contact */
 /* Client worked */
-.customer
-{
-    padding:3% 1% 3% 4%;
+#services{
+    padding:2% 25px 2% 25px;
 }
+
     

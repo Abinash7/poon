@@ -1,20 +1,19 @@
 @section('footer')
 <footer class="section footer-classic context-dark bg-image">
     <div class="container">
-        <div class="col-md-12">
-            <div class="row row-30">
-                <div class="col-md-4 col-xl-5">
+        <div class="col-md-12">            
+                <div class="col-md-4">
                     <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light"
                                 src="Images/poon.png" alt="" width="160" height="80"></a>
                     </div>
                     <div class="social">
-                        <span class="fa fa-facebook-square fa-3x social"></span>
-                        <span class="fa fa-instagram fa-3x social"></span>
-                        <span class="fa fa-google-plus-square fa-3x social"></span>
+                        <span class="fa fa-facebook-square fa-2x social"></span>
+                        <span class="fa fa-instagram fa-2x social"></span>
+                        <span class="fa fa-google-plus-square fa-2x social"></span>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h4>Contacts</h4>
+                    {{-- <h3>Contacts</h3> --}}
                     <dl class="contact-list">
                         <dt>Address:</dt>
                         <dd><i class="fa fa-map-marker"> Laxmi-Plaza, Putalisadak,</i></dd>
@@ -30,8 +29,8 @@
                             </dd>
                         </dl>
                 </div>
-                <div class="col-md-4 col-xl-3">
-                    <h4>Links</h4>
+                <div class="col-md-4">
+                    <h3>Links</h3>
                     <ul class="nav-list">
                         </dl>
                         <li><a href="#">About</a></li>
@@ -40,17 +39,9 @@
                         <li><a href="#">Career</a></li>
                     </ul>
                 </div>
-            </div>
+            
         </div>
     </div>
-    {{-- <div class="row no-gutters social-container">
-        <div class="col"><a class="social-inner" href="#"><span
-                    class="fa fa-facebook-square fa-3x social"></span><span>Facebook</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span
-                    class="fa fa-instagram fa-3x social"></span><span>instagram</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span
-                    class="fa fa-google-plus-square fa-3x social"></span><span>google</span></a></div>
-    </div> --}}
 </footer>
 
 <!-- js combined -->
