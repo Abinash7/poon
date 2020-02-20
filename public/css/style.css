@@ -145,6 +145,7 @@ nav ul li a {
 .nav-list li {
     padding-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .nav-list li a:hover:before {
@@ -185,6 +186,9 @@ ul, ol {
     transition: .22s ease;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d01b50bf5ddc174fce6462c23fb3ab4be7db566
 
     
