@@ -1,31 +1,36 @@
 @section('footer')
 <footer class="section footer-classic context-dark bg-image">
     <div class="container">
-        <div class="col-md-12">
-            <div class="row row-30">
-                <div class="col-md-4 col-xl-5">
-                    <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="Images/poon.png" alt="" width="160" height="80"></a>
-                        <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion,
-                            business consulting, and marketing.</p>
+        <div class="col-md-12">            
+                <div class="col-md-4">
+                    <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light"
+                                src="Images/poon.png" alt="" width="160" height="80"></a>
+                    </div>
+                    <div class="social">
+                        <span class="fa fa-facebook-square fa-2x social"></span>
+                        <span class="fa fa-instagram fa-2x social"></span>
+                        <span class="fa fa-google-plus-square fa-2x social"></span>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h5>Contacts</h5>
+                    {{-- <h3>Contacts</h3> --}}
                     <dl class="contact-list">
                         <dt>Address:</dt>
-                        <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                        <dd><i class="fa fa-map-marker"> Laxmi-Plaza, Putalisadak,</i></dd>
+                        <dd>Kathmandu, Nepal</dd>
                     </dl>
                     <dl class="contact-list">
-                        <dt>email:</dt>
-                        <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+                        <dt>Email:</dt>
+                        <dd><i class="fa fa-envelope"><a href="mailto:pontoonadcon@gmail.com"> pontoonadcon@gmail.com</a></i></dd>
                         <dl class="contact-list">
-                            <dt>phones:</dt>
-                            <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+                            <dt>Phones:</dt>
+                            <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a> <span>or</span> <a
+                                    href="tel:+977-9851207718">+977-9851207718</a></i>
                             </dd>
                         </dl>
                 </div>
-                <div class="col-md-4 col-xl-3">
-                    <h5>Links</h5>
+                <div class="col-md-4">
+                    <h3>Links</h3>
                     <ul class="nav-list">
                         </dl>
                         <li><a href="#">About</a></li>
@@ -34,7 +39,7 @@
                         <li><a href="#">Career</a></li>
                     </ul>
                 </div>
-            </div>
+            
         </div>
     </div>
     <div class="row no-gutters social-container">
