@@ -183,22 +183,17 @@ ul, ol {
     transition: .22s ease;
 }
 
-<<<<<<< HEAD
 /* copyright */
 .reserved-bot{
-     padding-top: 10px;
-     padding-bottom: .1px;
+   
      background-color: black;
-     margin-top: 20px;
-     margin-left: -20px;
-     margin-right: -20px;}
+    }
 
 /* end of copyright */
 /* contact */
 .card{
     color: #7a4198;
-  
-=======
+}
 .contact .col-lg-12{
     padding: 1% 30px 1.5% 30px;
     background-color: #3d2160;
@@ -214,7 +209,6 @@ ul, ol {
     margin-top: 10px;
     font-weight: 800;
     font-size: xx-large;
->>>>>>> 9e3b8bb25531120e79f85a46eb72b2335452f70b
 }
 
 .career .col-md-8 .career-body{

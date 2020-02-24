@@ -42,11 +42,7 @@
             
         </div>
     </div>
-    <div class="row no-gutters social-container">
-        <div class="col"><a class="social-inner" href="#"><span class="fa fa-facebook-square fa-3x social"></span><span>Facebook</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="fa fa-instagram fa-3x social"></span><span>instagram</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="fa fa-google-plus-square fa-3x social"></span><span>google</span></a></div>
-    </div>
+   
     <div class="reserved-bot">
         <p class="text-center">Copyright ©</p>
     </div>
@@ -54,6 +50,7 @@
 </footer>
 
 <!-- js combined -->
+<script src="js/career.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -62,6 +59,7 @@
 <script src="js/style.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </body>
 
 </html>
