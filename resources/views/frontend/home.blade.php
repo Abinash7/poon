@@ -36,7 +36,7 @@
     </div>
     <!-- end of written  text about company -->
 
-   
+
 
     <!-- {{-- CAREER Info --}} -->
     <div class="career">
@@ -54,9 +54,11 @@
         </div>
     </div>
     <!-- end of career  -->
+
+
     <!-- Clients-->
     <div class="container">
-         <div id="services" class="container-fluid text-center">
+        <div id="services" class="container-fluid text-center">
             <h1>Clients We have Engaged With!!!</h1>
             <br>
             <div class="customer text-center">
@@ -102,8 +104,8 @@
         </div>
     </div>
 
-     <!--start of  contact page -->
-     <div class="contact text-center">
+    <!--start of  contact page -->
+    <div class="contact text-center">
         <div class="col-lg-12">
             <h3>Get In Touch With Us</h3>
             <p>We will provide you all the required services </p>
@@ -113,5 +115,67 @@
     <!-- end of contact page -->
 </div>
 <!-- end of client info -->
+
+<!--  start of services -->
+
+<section class="services pt-100 pb-50" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 mx-auto text-center">
+                <div class="section-title mb-100">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Single Service -->
+                <div class="single-service">
+                    <img src="Images/web.png" alt="icons" style="height:100px;">
+                    <h4>Web Development </h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Single Service -->
+                <div class="single-service">
+                    <img src="Images/graphics.png" alt="icons" style="height:100px;">
+                    <h4>Graphic Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Single Service -->
+                <div class="single-service">
+                    <img src="Images/graphics.png" alt="icons" style="height:100px;">
+                    <h4>Motion Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Single Service -->
+                <div class="single-service">
+                    <img src="Images/photography.png" alt="icons" style="height:100px;">
+                    <h4>Photography</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Single Service -->
+                <div class="single-service">
+                    <img src="Images/printing.png" alt="icons" style="height:100px;">
+                    <h4>Printing</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="container">
+    <a href="{{route('Services')}}" button type="button" class="display btn btn-danger">More About Services</button></a>
+</div>
+<!-- end of services -->
+
 
 @endsection
