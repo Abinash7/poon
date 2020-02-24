@@ -131,18 +131,16 @@ nav ul li a {
 
 /* footer */
 
-.context-dark, .bg-gray-dark, .bg-primary {
-    margin-top: 20px;
-    padding-top: 1%;
-    color:  #7a4198;
-    background-color: #fff;
-    font-size: medium;      
-}
-.container{
+.row{
+    padding: 2% 2% 2% 2%;
+    background-color: #000;
     text-align: center;
+    font-size: 14px;
+    color: #fff;
 }
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #7a4198;
+
+.col-md-4 a{
+    color: #fff;
 }
 .nav-list li {
     padding-top: 5px;
@@ -165,7 +163,7 @@ ul, ol {
 
 .social{
     padding: 3% 5% 2% 3%;
-    color: #ef5454;
+    color: #fff;
 }
 /* .social-container .col {
     background-color: #7bbd43;
@@ -173,7 +171,7 @@ ul, ol {
 .nav-list li a:before {
     content: "\f14f";
     font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
+    color: #fff;
     display: inline-block;
     vertical-align: baseline;
     margin-left: -28px;
@@ -195,7 +193,7 @@ ul, ol {
     color: #7a4198;
 }
 .contact .col-lg-12{
-    padding: 1% 30px 1.5% 30px;
+    padding: 3% 30px 3% 30px;
     background-color: #3d2160;
     color: #7bbd43;
 }
@@ -218,9 +216,17 @@ ul, ol {
     font-style: initial;
 }
 /* contact */
+.contactinfo{
+    margin-top: 20px;
+}
 /* Client worked */
 #services{
     padding:2% 25px 2% 25px;
 }
 
-    
+/* video Home */
+/* .video{
+    width: 100%;
+    padding: 25px;
+    background-color: #aacb3b;
+} */

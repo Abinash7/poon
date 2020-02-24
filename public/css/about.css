@@ -1,0 +1,25 @@
+.container p{
+    margin: 20px auto 20px auto;
+    color: #2f1642;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.form{
+    font-size: larger;
+    color: #7a4198;
+    margin-bottom: 20px;
+}
+
+.add{
+    font-size: 15px;
+    color: #7a4198;
+    background-color: #aacb3b;
+    margin-bottom: 20px;
+    padding: 3% 3% 17% 3%;
+}
+
+.add a{
+    color: #7a4198 !important;
+}
+
