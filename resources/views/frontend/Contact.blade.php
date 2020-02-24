@@ -1,7 +1,7 @@
 @extends('master.master')
 @section('content')
 <section class="contact">
-   <img src="Images/img.jpg" height="300" width="100%">
+   <img src="Images/contact.jpg" height="100%" width="100%">
    <div class="container text-center">
       <p>Contact Pontoon:</p>
       <div class="form col-md-8">
