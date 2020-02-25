@@ -1,6 +1,6 @@
 @extends('master.master')
 @section('content')
-<img src="Images/img.jpg" width="100%" height="450px"> 
+<img src="Images/img.jpg" width="100%" height="100%"> 
 <div class="container-fluid home-content1"style="font-size:15px;">
   <div class="row">
     <div class="col-md-6 content1-left">

@@ -17,7 +17,7 @@ header {
 }
 .content {
     width: 100%;
-    margin: 4em auto;
+    margin: 1em auto;
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
@@ -129,60 +129,6 @@ nav ul li a {
     color: #fff;
 } */
 
-/* footer */
-
-.context-dark, .bg-gray-dark, .bg-primary {
-    margin-top: 20px;
-    padding-top: 1%;
-    color:  #7a4198;
-    background-color: #fff;
-    font-size: medium;      
-}
-.container{
-    text-align: center;
-}
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #7a4198;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-
-.social{
-    padding: 3% 5% 2% 3%;
-    color: #ef5454;
-}
-/* .social-container .col {
-    background-color: #7bbd43;
-} */
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
-}
-
 /* copyright */
 .reserved-bot{
    
@@ -195,32 +141,71 @@ ul, ol {
     color: #7a4198;
 }
 .contact .col-lg-12{
-    padding: 1% 30px 1.5% 30px;
+    padding: 3% 30px 3% 30px;
     background-color: #3d2160;
     color: #7bbd43;
+    font-size: x-large;
 }
 
 /* Career Info */
 
-.career .col-md-8 .career-head{
+.careers .col-md-8 .career-head{
     background: transparent;
-    padding-left: 10%;
+    padding-left: 12%;
     padding-top: 12%;
     margin-top: 10px;
     font-weight: 800;
     font-size: xx-large;
+    font-family: sans-serif;
 }
 
-.career .col-md-8 .career-body{
-    padding-left: 10%;
+.careers .col-md-8 .career-body{
+    padding-left: 12%;
     font-weight: lighter;
     font-size: large;
     font-style: initial;
 }
 /* contact */
+.contactinfo{
+    margin-top: 20px;
+}
 /* Client worked */
 #services{
     padding:2% 25px 2% 25px;
 }
 
-    
+/* video Home */
+.col-lg-12{
+    padding: 0.5% 0% 0.5% 0%;
+    background-color: #7bbd43;
+}
+/* .col-lg-12:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: #7bbd43;
+    z-index: -1;
+} */
+
+/* Footer */
+.container-fluid{
+    padding-top: 2%;
+}
+
+.bg-4{
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+.bg-4 a{
+    color: white;
+}
+
+.social{
+    padding: 0% 2% 2% 2%;
+    color: #fff;
+}
