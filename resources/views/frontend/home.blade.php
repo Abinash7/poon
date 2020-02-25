@@ -3,7 +3,7 @@
 <img src="Images/img.jpg" width="100%" height="100%">
 <div class="content">
     {{-- About page Info --}}
-<div class="row">
+
     <div class="col-md-12">
         <div class="about">
             <div class="col-md-3">
@@ -17,7 +17,7 @@
                 <p>Surprise!!!</p>
             </div>
         </div>
-    </div>
+
     <!-- end of about page -->
 
     <!-- {{-- Services page Info --}} -->
@@ -33,29 +33,54 @@
     </div>
     <!-- end of written  text about company -->
 </div>
-</div>
+
 <div class="col-lg-12">
     <video src="Images/video.mp4" controls height="100%" width="100%"></video>
 </div>
 
-<!-- {{-- CAREER Info --}} -->
-<div class="careers">
-    <div class="col-md-1"></div>
-    <div class="col-md-8">
-        <div class="career-head">
-            YOUR CAREER AT PONTOON
+
+
+    <!-- {{-- CAREER Info --}} -->
+    <div class="career">
+        <div class="col-md-8">
+            <div class="career-head">
+                YOUR CAREER AT PONTOON
+            </div>
+            <div class="career-body">
+                <p>Do you want to be a part of this company?? Come on let's build it together...</p>
+                <a href="#" class="btn btn-danger btn-lg">Join Now</a>
+            </div>
         </div>
         <div class="career-body">
             <p>Do you want to be a part of this company?? Come on let's build it together...</p>
             <a href="#" class="btn btn-danger btn-lg">Join Now</a>
         </div>
     </div>
+
+    <!-- end of career  -->
+
+
+    <!-- Clients-->
+    <div class="container">
+        <div id="services" class="container-fluid text-center">
+            <h1>Clients We have Engaged With!!!</h1>
+            <br>
+            <div class="customer text-center">
+
     <div class="col-md-3">
         <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
     </div>
     
 </div>
 <!-- end of career  -->
+
+<div class="contact text-center">
+    <div class="col-lg-12">
+        <h3>Get In Touch With Us</h3>
+        <p>We will provide you all the required services </p>
+        <a href="#" class="btn btn-danger btn-lg">ContactUs</a>
+    </div>
+</div>
 
 <!-- Clients-->
 
@@ -176,12 +201,6 @@
 
 
 <!--start of  contact page -->
-<div class="contact text-center">
-    <div class="col-lg-12">
-        <h3>Get In Touch With Us</h3>
-        <p>We will provide you all the required services </p>
-        <a href="#" class="btn btn-danger btn-lg">ContactUs</a>
-    </div>
-</div>
+
 <!-- end of contact page -->
 @endsection

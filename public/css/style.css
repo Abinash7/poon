@@ -176,8 +176,8 @@ nav ul li a {
 
 /* video Home */
 .col-lg-12{
-    padding: 0.5% 0% 0.5% 0%;
-    background-color: #7bbd43;
+    padding-top: 0.7%;
+    background-color: #3d2160;
 }
 /* .col-lg-12:after {
     content: '';
@@ -186,7 +186,7 @@ nav ul li a {
     left: -5px;
     right: -5px;
     bottom: -5px;
-    background: #7bbd43;
+    background: #3d2160;
     z-index: -1;
 } */
 
@@ -209,3 +209,8 @@ nav ul li a {
     padding: 0% 2% 2% 2%;
     color: #fff;
 }
+
+/* .copyright{
+    padding: 1% 1% 1% 1%;
+    background-color: #fff;
+} */

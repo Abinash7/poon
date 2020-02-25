@@ -1,6 +1,7 @@
 @extends('master.master')
 @section('content')
 <img src="Images/img.jpg" width="100%" height="450px"> 
+
 <div class="sidenav">
   <div class="login-main-text">
     <h2>You Are Closer Babes</h2>

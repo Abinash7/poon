@@ -44,9 +44,9 @@
     </div>
 
 </footer>
-<div class="copyright text-center">
+{{-- <div class="copyright text-center">
     <p> Copyright <i class="fa fa-copyright"></i> Pontoon.com</p>
-</div>
+</div> --}}
 </body>
 <!-- js combined -->
 <script src="js/career.js"></script>

@@ -43,7 +43,7 @@ body {
 
     .sidenav{
         width: 40%;
-        position: fixed;
+        position: initial;
         z-index: 1;
         top: 0;
         left: 0;
