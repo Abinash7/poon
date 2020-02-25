@@ -10,3 +10,6 @@ Route::group(['namespace' => 'frontend'], function () {
     Route:: any('Services', 'ApplicationController@Services')->name('Services');
     Route:: any('Career', 'ApplicationController@Career')->name('Career');
 });
+
+
+
