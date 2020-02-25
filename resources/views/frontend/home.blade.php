@@ -38,51 +38,24 @@
     <video src="Images/video.mp4" controls height="100%" width="100%"></video>
 </div>
 
-<<<<<<< HEAD
-
-
-    <!-- {{-- CAREER Info --}} -->
-    <div class="career">
-        <div class="col-md-8">
-            <div class="career-head">
-                YOUR CAREER AT PONTOON
-            </div>
-            <div class="career-body">
-                <p>Do you want to be a part of this company?? Come on let's build it together...</p>
-                <a href="#" class="btn btn-danger btn-lg">Join Now</a>
-            </div>
-=======
 <!-- {{-- CAREER Info --}} -->
 <div class="careers">
     <div class="col-md-1"></div>
     <div class="col-md-8">
         <div class="career-head">
             YOUR CAREER AT PONTOON
->>>>>>> 5fe326c56933a9cfe7aa771ed9cc96461a0693f4
         </div>
         <div class="career-body">
             <p>Do you want to be a part of this company?? Come on let's build it together...</p>
             <a href="#" class="btn btn-danger btn-lg">Join Now</a>
         </div>
     </div>
-<<<<<<< HEAD
-    <!-- end of career  -->
-
-
-    <!-- Clients-->
-    <div class="container">
-        <div id="services" class="container-fluid text-center">
-            <h1>Clients We have Engaged With!!!</h1>
-            <br>
-            <div class="customer text-center">
-=======
     <div class="col-md-3">
         <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
     </div>
     
 </div>
 <!-- end of career  -->
->>>>>>> 5fe326c56933a9cfe7aa771ed9cc96461a0693f4
 
 <!-- Clients-->
 
