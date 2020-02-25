@@ -3,7 +3,7 @@
 <img src="Images/img.jpg" width="100%" height="100%">
 <div class="content">
     {{-- About page Info --}}
-<div class="row">
+
     <div class="col-md-12">
         <div class="about">
             <div class="col-md-3">
@@ -17,7 +17,7 @@
                 <p>Surprise!!!</p>
             </div>
         </div>
-    </div>
+
     <!-- end of about page -->
 
     <!-- {{-- Services page Info --}} -->
@@ -33,7 +33,7 @@
     </div>
     <!-- end of written  text about company -->
 </div>
-</div>
+
 <div class="col-lg-12">
     <video src="Images/video.mp4" controls height="100%" width="100%"></video>
 </div>
@@ -56,7 +56,13 @@
     
 </div>
 <!-- end of career  -->
-
+<div class="contact text-center">
+    <div class="col-lg-12">
+        <h3>Get In Touch With Us</h3>
+        <p>We will provide you all the required services </p>
+        <a href="#" class="btn btn-danger btn-lg">ContactUs</a>
+    </div>
+</div>
 <!-- Clients-->
 
 <div id="services" class="container-fluid text-center">
@@ -107,12 +113,6 @@
 <!-- end of client info -->
 
 <!--start of  contact page -->
-<div class="contact text-center">
-    <div class="col-lg-12">
-        <h3>Get In Touch With Us</h3>
-        <p>We will provide you all the required services </p>
-        <a href="#" class="btn btn-danger btn-lg">ContactUs</a>
-    </div>
-</div>
+
 <!-- end of contact page -->
 @endsection
