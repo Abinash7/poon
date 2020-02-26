@@ -1,0 +1,26 @@
+.serve{
+    background-color: #3d2160;
+    margin-top: 2%;
+}
+
+.serve-one{
+    color: #7bbd43;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35%;
+}
+.serve-2{
+    color: #7bbd43;
+    font-size: 55px;
+    font-weight: 600;   
+    margin-top: -10%;
+    padding-bottom: 35%;
+}
+
+.serve-des p{
+    padding: 3% 2% 3% 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    /* color: #3d2160; */
+}

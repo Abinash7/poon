@@ -14,6 +14,7 @@ body {
 header {
     width: 100%;
     background-size: cover;
+
 }
 .content {
     width: 100%;
@@ -71,6 +72,16 @@ nav ul li a {
     font-size: 16px;
 }
 
+nav ul li a:hover {
+    text-underline-position: below;
+    color: #7bbd43;
+    font-size: 16px;
+}
+
+nav ul li.active a{
+    background-color: #7bbd43;
+    color: #3d2160;    
+}
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -97,7 +108,7 @@ nav ul li a {
     }
 
     nav.black ul {
-          background: #000;
+          background: #000;          
     }
 
     .showing {
@@ -107,15 +118,36 @@ nav ul li a {
     nav ul li {
           box-sizing: border-box;
           width: 100%;
-          padding: 24px;
+          padding: 3px;
           text-align: center;
     }
 
     .menu-icon {
           display: block;
     }
+    
+    .image{
+        margin-top: 65px;
+    }
 
 }
+
+/* Side Button */
+.sidebutton{
+    padding-top: 20%;
+    margin-left: -3%;
+    position: fixed;
+    /* -ms-transform: rotate(90deg); /* IE 9 */
+   /*transform: rotate(90deg); */
+    z-index: 300;
+}
+
+.sidebutton a{  
+    -ms-transform: rotate(90deg); /* IE 9 */
+    transform: rotate(90deg);
+   font-size: large; 
+}
+
 /* Homepage-About */
 .about {
     padding: 1.5% 25px 23% 25px;
@@ -157,6 +189,7 @@ nav ul li a {
     font-weight: 800;
     font-size: xx-large;
     font-family: sans-serif;
+    color: #7bbd43;
 }
 
 .careers .col-md-8 .career-body{
@@ -164,6 +197,7 @@ nav ul li a {
     font-weight: lighter;
     font-size: large;
     font-style: initial;
+    color: #3d2160;
 }
 /* contact */
 .contactinfo{
@@ -205,12 +239,18 @@ nav ul li a {
     color: white;
 }
 
+.bg-4 a:hover{
+    color: #7bbd43;    
+}
+
 .social{
     padding: 0% 2% 2% 2%;
     color: #fff;
 }
 
-/* .copyright{
-    padding: 1% 1% 1% 1%;
-    background-color: #fff;
-} */
+.copyright{
+    padding: 0.5% ;
+    font-size: small;
+    background-color: #7bbd43;
+    color: #fff;
+}

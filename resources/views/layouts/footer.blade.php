@@ -7,9 +7,10 @@
                         alt="" width="100%" height="100%"></a>
             </div>
             <div class="social">
-                <span><i class="fa fa-facebook-square fa-2x social"></i></span>
-                <span><i class="fa fa-instagram fa-2x social"></i></span>
-                <span><i class="fa fa-google-plus-square fa-2x social"></i></span>
+                <span><a href="https://www.facebook.com/pontoonads/"><i
+                            class="fa fa-facebook-square fa-2x social"></i></a></span>
+                <span><a href="https://www.instagram.com/pontoonads/"><i class="fa fa-instagram fa-2x social"></i></a></span>
+                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-2x social"></i></a></span>
             </div>
         </div>
         <div class="col-md-4">
@@ -34,22 +35,26 @@
         <div class="col-md-4">
             <h3>Links</h3>
             <dl class="nav-list">
-                </dl>
-                <dd><a href="#">About</a></dd>
-                <dd><a href="#">Services</a></dd>
-                <dd><a href="#">Contacts</a></dd>
-                <dd><a href="#">Career</a></dd>
+            </dl>
+            <dd><a href="{{route('home')}}">Home</a></dd>
+            <dd><a href="{{route('About')}}">About</a></dd>
+            <dd><a href="{{route('Services')}}">Services</a></dd>
+            <dd><a href="{{route('Career')}}">Career</a></dd>
+            <dd><a href="{{route('Contact')}}">Contacts</a></dd>
+
             </dl>
         </div>
     </div>
 
 </footer>
-{{-- <div class="copyright text-center">
-    <p> Copyright <i class="fa fa-copyright"></i> Pontoon.com</p>
-</div> --}}
+<div class="copyright text-center">
+    <p> Copyright <i class="fa fa-copyright"></i> Pontoonads.com</p>
+</div>
 </body>
 <!-- js combined -->
 <script src="js/career.js"></script>
+<script src="js/activenav.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
