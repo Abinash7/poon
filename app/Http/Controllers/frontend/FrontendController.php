@@ -12,6 +12,7 @@ class FrontendController extends Controller
         public $pagePath=' ';
     //working of the constructor
     public function __construct(){
+      
         $this->pagePath= $this->frontendPath;
     }
        
