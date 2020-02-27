@@ -21,7 +21,7 @@ Route::group(['namespace' => 'frontend'], function () {
 });
 
 Route::group(['namespace' => 'backend', 'prefix' =>'laravel-admin'], function () {
-    Route::any('/', 'DashboardController@index')->name('admin')->middleware('auth');
+    Route::any('/', 'DashboardController@index')->name('admin');
    
     Route::group(['prefix' => 'slider'], function () {
       Route::any('add_slider', 'SliderController@add_slider')->name('add_slider');

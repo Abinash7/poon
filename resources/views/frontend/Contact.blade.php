@@ -1,9 +1,10 @@
+@php $title = "Contact|Pontoon" @endphp
 @extends('master.master')
 @section('content')
 <section class="contact">
-   <img src="Images/contact.jpg" height="100%" width="100%">
+   <img class="image" src="Images/contact.jpg" height="100%" width="100%">
    <div class="container text-center">
-      <p>Contact Pontoon:</p>
+      <div class="title">Contact Pontoon:</div>
       <div class="form col-md-8">
          <form method="post" class="contactform" action="{{route('Contact')}}">
             {{csrf_field()}}
@@ -23,6 +24,8 @@
                <label for="message">Message*</label>
                <textarea class="form-control" rows="6" required id="message"></textarea>
             </div>
+            {{-- <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}">
+            </div> --}}
             <button type="submit" class="btn btn-danger btn-lg">Contact Us</button>
          </form>
       </div>

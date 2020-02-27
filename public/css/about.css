@@ -1,3 +1,4 @@
+/* Form in career and contact */
 .container p{
     margin: 20px auto 20px auto;
     color: #2f1642;
@@ -23,3 +24,59 @@
     color: #7a4198 !important;
 }
 
+/* About Portion Upper Side */
+.row h1{
+     color: #7bbd43;
+}
+
+.row h3{
+    color: #7bbd43;
+}
+
+.row p{
+     font-size: small;
+     text-align: left;
+     padding: 1%;
+}
+
+.col-md-12 h1{
+    color: #7bbd43;
+    padding: 1%;
+}
+
+/* Team Information */
+.teaminfo{
+    padding: 0.5%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.col-md-12 h2{
+    color: #7bbd43;
+    padding-bottom: 1%;
+}
+
+.col-md-3 h3{
+    color: #7bbd43;
+}
+.col-md-3 h4{
+    color: #3d2160;
+}
+/* Portfolio Content */
+.portfolio{
+    background-color: #3d2160;
+}
+
+.portfolio h1{
+    padding: 1%;
+    color: #7bbd43;
+}
+
+.card-title{
+    color: #aacb3b;
+}
+
+.card-text{
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}

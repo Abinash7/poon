@@ -1,71 +1,30 @@
-body {
-    font-family: "Lato", sans-serif;
+
+.title{
+    color: #7bbd43;
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 2% 2% 2% 2%;
+}
+.col-lg-5{
+    background-color: #7bbd43;
+    margin-bottom: 30px;
+    font-size: small;
+}
+.col-lg-7{
+    color: #7a4198;
+    font-size: small;
+    margin-bottom: 30px;
 }
 
-
-
-.main-head{
-    height: 150px;
-    background: #FFF;
-   
-}
-
-.sidenav {
-    height: 100%;
-    background-color:green;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-
-.main {
-    padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-}
-
-@media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
-
-    .register-form{
-        margin-top: 10%;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .main{
-        margin-left: 40%; 
-    }
-
-    .sidenav{
-        width: 40%;
-        position: initial;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
-
-    .login-form{
-        margin-top: 80%;
-    }
-
-    .register-form{
-        margin-top: 20%;
-    }
-}
-
-
-.login-main-text{
-    margin-top: 20%;
-    padding: 60px;
+.career-footer{
+    background-color: #3d2160;
+    padding: 1% 1% 1% 1%;
     color: #fff;
+    font-size: large;
 }
 
-.login-main-text h2{
-    font-weight: 300;
+.car-title{
+    font-size: xx-large;
+    font-weight: 700;
+    color: #7bbd43;
 }
-
