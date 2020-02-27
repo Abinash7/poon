@@ -36,12 +36,15 @@
                             <ul class="nav child_menu">
                                 <li><a href="{{route('add_slider')}}"> Add slider</a></li>
                                 <li><a href="{{route('show')}}"> View data</a></li>
-
-
                             </ul>
 
                         </li>
-                        <li><a><i class="fa fa-clone"></i>kjh <span class="fa fa-chevron-down"></span></a>
+                       
+                        <li><a><i class="fa fa-bar-chart-o"></i> Career <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <li><a href="{{route('Career')}}"> View career</a></li>
+                          
+                            </ul>
 
                         </li>
                     </ul>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\backend;
 
 use App\Http\Controllers\Controller;
 use App\Model\Slide;
+use App\Model\Career;
 use Illuminate\Http\Request;
 use File;
 
@@ -21,7 +22,32 @@ class SliderController extends backendController
         $this->data('slider', $this->title( 'slider'));
         return view($this->pagePath . 'slider.slider');
     }
+    public function delete_show($id)
+    {
+        $find = Slide::findorfail($id);
+        $this->delete_file($id);
 
+        if ($find->delete()) {
+            return redirect()->back()->with('success', 'Demands Deleted');
+        }
+    }
+
+    public function delete_file($id)
+    {
+        $findData = Slide::findorfail($id);
+        $fileName = $findData->image;
+        $deletePath = public_path('Images/' . $fileName);
+        if (file_exists($deletePath) && is_file($deletePath)) {
+            unlink($deletePath);
+        }
+        return true;
+    }
+
+    public function Career(){
+        $careers = Career::all();
+                
+        return view($this->pagePath. 'Career.Career')->with('careers',$careers);
+    }
     public function show(){
         $slides = Slide::all();
                 
