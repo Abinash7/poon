@@ -27,7 +27,7 @@
 
             <!-- <td> <video src="{{url('images')}}/{{$slide->image}}" height="50" width="100"></video> </td> -->
             <td> 
-            <a href="{{route('Career',$career->id)}}" onclick="return confirm('Confirm Delete?')"
+            <a href="{{route('Career_view',$career->id)}}" onclick="return confirm('Confirm Delete?')"
          class="btn btn-sm btn btn-danger"><i class="fa fa-trash"></i>
         </a>
             </td>

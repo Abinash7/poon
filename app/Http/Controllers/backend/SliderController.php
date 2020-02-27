@@ -46,7 +46,7 @@ class SliderController extends backendController
     public function Career(){
         $careers = Career::all();
                 
-        return view($this->pagePath. 'Career.Career')->with('careers',$careers);
+        return view($this->pagePath. 'Career.Career_view')->with('careers',$careers);
     }
     public function show(){
         $slides = Slide::all();

@@ -28,7 +28,7 @@ Route::group(['namespace' => 'backend', 'prefix' =>'laravel-admin'], function ()
       Route::any('edit_slider/{id?}', 'SliderController@edit_slider')->name('edit_slider');
       Route::any('show', 'SliderController@show')->name('show');
       Route::get('delete-show/{id}', 'SliderController@delete_show')->name('delete-show');
-      Route::any('Career', 'SliderController@Career')->name('Career');
+      Route::any('Career_view', 'SliderController@Career_view')->name('Career_view');
       Route::get('delete-Career/{id}', 'SliderController@delete_Career')->name('delete-Career');
 
     
