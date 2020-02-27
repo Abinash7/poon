@@ -11,7 +11,7 @@ class ApplicationController extends FrontendController
         public function index(Request $request)
         {
            
-            return view($this->pagePath . 'home');
+            return view($this->pagePath . 'Index');
         }
 
         public function About(Request $request)

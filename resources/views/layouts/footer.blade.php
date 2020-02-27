@@ -1,55 +1,52 @@
 @section('footer')
-<footer class="container-fluid bg-4 text-center">
-
-    <div class="col-md-12">
-        <div class="col-md-4">
-            <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="Images/poon.png"
-                        alt="" width="100%" height="100%"></a>
-            </div>
-            <div class="social">
-                <span><a href="https://www.facebook.com/pontoonads/"><i
-                            class="fa fa-facebook-square fa-2x social"></i></a></span>
-                <span><a href="https://www.instagram.com/pontoonads/"><i class="fa fa-instagram fa-2x social"></i></a></span>
-                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-2x social"></i></a></span>
+<footer>
+    <div class="footer col-lg-12">
+        <div class="col-lg-3">
+            <div class="pr-xl-4"><a class="brand" href="{{route('Index')}}"><img class="brand-logo-light"
+                        src="Images/poon.png" alt="" width="100%" height="100%"></a>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-3">
             {{-- <h3>Contacts</h3> --}}
             <dl class="contact-list">
-                <dt>Address:</dt>
-                <dd><i class="fa fa-map-marker"> Laxmi-Plaza, Putalisadak,</i></dd>
-                <dd>Kathmandu, Nepal</dd>
+                <dd><i class="fa fa-map-marker"> Laxmi-Plaza, Putalisadak, Kathmandu, Nepal</i></dd>
+                <dd></dd>
             </dl>
             <dl class="contact-list">
-                <dt>Email:</dt>
                 <dd><i class="fa fa-envelope"><a href="mailto:pontoonadcon@gmail.com">
                             pontoonadcon@gmail.com</a></i></dd>
             </dl>
             <dl class="contact-list">
-                <dt>Phones:</dt>
-                <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a> <span>or</span> <a
-                            href="tel:+977-9851207718">+977-9851207718</a></i>
+                <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a>
+                        <!--<span>or</span> <a
+                            href="tel:+977-9851207718">+977-9851207718</a>--></i>
                 </dd>
             </dl>
         </div>
-        <div class="col-md-4">
-            <h3>Links</h3>
+        <div class="col-lg-2">
             <dl class="nav-list">
-            </dl>
-            <dd><a href="{{route('home')}}">Home</a></dd>
-            <dd><a href="{{route('About')}}">About</a></dd>
-            <dd><a href="{{route('Services')}}">Services</a></dd>
-            <dd><a href="{{route('Career')}}">Career</a></dd>
-            <dd><a href="{{route('Contact')}}">Contacts</a></dd>
+                <dd><a href="{{route('Index')}}">Home</a></dd>
+                <dd><a href="{{route('About')}}">About</a></dd>
+                <dd><a href="{{route('Services')}}">Services</a></dd>
+                <dd><a href="{{route('Career')}}">Career</a></dd>
+                <dd><a href="{{route('Contact')}}">Contacts</a></dd>
 
             </dl>
         </div>
+        <div class="col-lg-4">
+            <div class="social">
+                <span><a href="https://www.facebook.com/pontoonads/"><i
+                            class="fa fa-facebook-square fa-2x social"></i></a></span>
+                <span><a href="https://www.instagram.com/pontoonads/"><i
+                            class="fa fa-instagram fa-2x social"></i></a></span>
+                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-2x social"></i></a></span>
+            </div>
+        </div>
     </div>
-
 </footer>
-<div class="copyright text-center">
+{{-- <div class="copyright text-center">
     <p> Copyright <i class="fa fa-copyright"></i> Pontoonads.com</p>
-</div>
+</div> --}}
 </body>
 <!-- js combined -->
 <script src="js/career.js"></script>
