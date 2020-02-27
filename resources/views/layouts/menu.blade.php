@@ -9,7 +9,7 @@
       </div>
       <div class="menu">
          <ul>
-            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('Index')}}">Home</a></li>
             <li><a href="{{route('About')}}">About</a></li>
             <li><a href="{{route('Services')}}">Services</a></li>
             <li><a href="{{route('Career')}}">Career</a></li>
@@ -19,7 +19,7 @@
    </nav>
 </header>
 <div class="sidebutton">
-   <a href="{{route('Contact')}}" class="btn btn-danger">Contact Us</a>
+   <a href="{{route('Contact')}}" class="btn btn-success btn-lg">Contact Us</a>
 </div>
 
 @endsection
