@@ -2,14 +2,13 @@
 <footer>
     <div class="footer col-lg-12">
         <div class="col-lg-3">
-            <div class="pr-xl-4"><a class="brand" href="{{route('Index')}}"><img class="brand-logo-light"
-                        src="Images/poon.png" alt="" width="100%" height="100%"></a>
+            <div class="pr-xl-4"><a class="brand" href="{{route('Index')}}"><img class="brand-logo-light" src="Images/penny.png" alt="" width="100%" height="100%"></a>
             </div>
         </div>
         <div class="col-lg-3">
             {{-- <h3>Contacts</h3> --}}
             <dl class="contact-list">
-                <dd><i class="fa fa-map-marker"> Laxmi-Plaza, Putalisadak, Kathmandu, Nepal</i></dd>
+                <dd><i class="fa fa-map-marker"> New Baneshwor, Kathmandu, Nepal</i></dd>
                 <dd></dd>
             </dl>
             <dl class="contact-list">
@@ -17,7 +16,7 @@
                             pontoonadcon@gmail.com</a></i></dd>
             </dl>
             <dl class="contact-list">
-                <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a>
+                <dd><i class="fa fa-phone"><a href="tel:9801916450"> +977 9801916450</a>
                         <!--<span>or</span> <a
                             href="tel:+977-9851207718">+977-9851207718</a>--></i>
                 </dd>
@@ -25,21 +24,20 @@
         </div>
         <div class="col-lg-2">
             <dl class="nav-list">
-                <dd><a href="{{route('Index')}}">Home</a></dd>
-                <dd><a href="{{route('About')}}">About</a></dd>
-                <dd><a href="{{route('Services')}}">Services</a></dd>
+                <dd><a href="{{route('About')}}"></a></dd>
+                <dd><a href="{{route('About')}}">Who We Are</a></dd>
+                <dd><a href="{{route('Services')}}">What We Do</a></dd>
                 <dd><a href="{{route('Career')}}">Career</a></dd>
-                <dd><a href="{{route('Contact')}}">Contacts</a></dd>
+                <dd><a href="{{route('Contact')}}">Reach Us</a></dd>
 
             </dl>
         </div>
         <div class="col-lg-4">
             <div class="social">
-                <span><a href="https://www.facebook.com/pontoonads/"><i
-                            class="fa fa-facebook-square fa-3x social"></i></a></span>
-                <span><a href="https://www.instagram.com/pontoonads/"><i
-                            class="fa fa-instagram fa-3x social"></i></a></span>
-                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-3x social"></i></a></span>
+                <span><a href="https://www.facebook.com/pontoonads/"><i class="fa fa-facebook-square fa-3x social"></i></a></span>
+                <span><a href="https://www.instagram.com/pontoonads/"><i class="fa fa-instagram fa-3x social"></i></a></span>
+                <span><a href="#"><i class="fa fa-google fa-3x social"></i></a></span>
+                <span><a href="#"><i class="fa fa-youtube fa-3x social"></i></a></span>
             </div>
         </div>
     </div>
@@ -61,5 +59,6 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/jquery-3.3.1.min.js"></script>
+
 </html>
 @stop
