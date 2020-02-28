@@ -30,156 +30,63 @@
     </div>
 </div>
 
-
-
-<!-- Container (TOUR Section) -->
-
-<div class="container">
-    <div class="col-md-12">
-        <div class="col-md-6" style="border:groove">
-            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
-            <h4>Graphics Design</h4>
-            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.
-                The distinction between a good and a service remains disputed. The perspective in the
-                late-eighteenth and
-                early-nineteenth centuries focused on creation and possession of wealth. Classical
-                economists contended
-                that goods were objects of value over which ownership rights could be established and
-                exchanged. Ownership
-                implied tangible possession of an object what he termed "productive" and "unproductive"
-                labor. The former, he stated, produced goods that
-                could be stored after production and subsequently exchanged for money or other items of
-                value.
-                The latter, however useful or necessary, created services that perishe</p>
-        </div>
-        <div class="col-md-6" style="border:groove">
-            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 2%"></span>
-            <h4>Graphics Design</h4>
-            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.
-                The distinction between a good and a service remains disputed. The perspective in the
-                late-eighteenth and
-                early-nineteenth centuries focused on creation and possession of wealth. Classical
-                economists contended
-                that goods were objects of value over which ownership rights could be established and
-                exchanged. Ownership
-                implied tangible possession of an object what he termed "productive" and "unproductive"
-                labor. The former, he stated, produced goods that
-                could be stored after production and subsequently exchanged for money or other items of
-                value.
-                The latter, however useful or necessary, created services that perishe</p>
-        </div>
-        <div class="col-md-6" style="border:groove">
-            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
-            <h4>Graphics Design</h4>
-            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.
-                The distinction between a good and a service remains disputed. The perspective in the
-                late-eighteenth and
-                early-nineteenth centuries focused on creation and possession of wealth. Classical
-                economists contended
-                that goods were objects of value over which ownership rights could be established and
-                exchanged. Ownership
-                implied tangible possession of an object what he termed "productive" and "unproductive"
-                labor. The former, he stated, produced goods that
-                could be stored after production and subsequently exchanged for money or other items of
-                value.
-                The latter, however useful or necessary, created services that perishe</p>
-        </div>
-        <div class="col-md-6" style="border:groove">
-            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
-            <h4>Graphics Design</h4>
-            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.
-                The distinction between a good and a service remains disputed. The perspective in the
-                late-eighteenth and
-                early-nineteenth centuries focused on creation and possession of wealth. Classical
-                economists contended
-                that goods were objects of value over which ownership rights could be established and
-                exchanged. Ownership
-                implied tangible possession of an object what he termed "productive" and "unproductive"
-                labor. The former, he stated, produced goods that
-                could be stored after production and subsequently exchanged for money or other items of
-                value.
-                The latter, however useful or necessary, created services that perishe</p>
-        </div>
-
-        {{-- <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="Images/love.png" alt="img" style="height:350px;">
-
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/card.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</h3>
+                <p>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</p>
             </div>
-        </div> --}}
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/card.png" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</h3>
+                <p>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/card.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</h3>
+                <p>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/card.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</h3>
+                <p>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/card.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</h3>
+                <p>This is a wider card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
     </div>
+    
 </div>
-
-
-{{-- 
-
-<!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="Images/digital.jpg" alt="img" style="height:300px;">
-
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <p><strong>Graphics Design</strong></p>
-                    <p style="background-color:green; height:300px">This is a wider card with supporting text below
-                        as a
-                        natural
-                        lead-in to additional content. This content is a little bit longer.
-                        The distinction between a good and a service remains disputed. The perspective in the
-                        late-eighteenth and
-                        early-nineteenth centuries focused on creation and possession of wealth. Classical
-                        economists
-                        contended
-                        that goods were objects of value over which ownership rights could be established and
-                        exchanged.
-                        Ownership
-                        implied tangible possession of an object what he termed "productive" and "unproductive"
-                        labor.
-                        The former, he stated, produced goods that
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="Images/SEO.jpg" alt="img" style="height:300px;">
-
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <p><strong>Graphics Design</strong></p>
-                    <p style="background-color:green; height:300px">This is a wider card with supporting text below
-                        as a
-                        natural
-                        lead-in to additional content. This content is a little bit longer.
-                        The distinction between a good and a service remains disputed. The perspective in the
-                        late-eighteenth and
-                        early-nineteenth centuries focused on creation and possession of wealth. Classical
-                        economists
-                        contended
-                        that goods were objects of value over which ownership rights could be established and
-                        exchanged.
-                        Ownership
-                        implied tangible possession of an object what he termed "productive" and "unproductive"
-                        labor.
-                        The former, he stated, produced goods that
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
 
 
 <div class="career-footer text-center">
