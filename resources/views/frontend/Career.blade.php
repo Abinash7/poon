@@ -24,7 +24,7 @@
 
     </div>
     <div class="col-lg-7">
-      <form method="post" class="contactform" action="{{route('Contact')}}">
+      <form method="post" class="contactform" action="{{route('Career')}}">
         {{csrf_field()}}
         <div class="form-group">
           <label>Name*</label>

@@ -17,15 +17,15 @@
                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
             </div>
             <div class="form-group">
-               <label for="sub">Subject</label>
-               <input type="text" class="form-control" id="sub" placeholder="Enter subject matter">
+               <label for="subject">Subject</label>
+               <input type="text" class="form-control" id="subject" placeholder="Enter subject matter">
             </div>
             <div class="form-group">
                <label for="message">Message*</label>
                <textarea class="form-control" rows="6" required id="message"></textarea>
             </div>
-            {{-- <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}">
-            </div> --}}
+            <!-- {{-- <div class="g-recaptcha" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}">
+            </div> --}} -->
             <button type="submit" class="btn btn-danger btn-lg">Contact Us</button>
          </form>
       </div>

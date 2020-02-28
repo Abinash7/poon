@@ -30,63 +30,86 @@
     </div>
 </div>
 
-<div class="container text-center">
-    <h1>We Basically Work On:</h1>
-</div>
-<div class="card-group text-center">
-    <div class="card">
-        <img class="card-img-top" src="Images/Printing-02.png" alt="Card image cap" style="height: 350px;">
-        <div class="card-body">
-            <h5 class="card-title" style="font-size:15px;">Graphics Design</h5>
-            <p class="card-text" style="font-size:15px;">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit longer.</p>
 
-        </div>
-    </div>
-    <div class="card">
-        <img class="card-img-top" src="Images/Printing-02.png" alt="Card image cap" style="height: 350px;">
-        <div class="card-body">
-            <h5 class="card-title" style="font-size:15px;">Motion Design</h5>
-            <p class="card-text" style="font-size:15px;">This card has supporting text below as a natural lead-in to
-                additional content.</p>
 
-        </div>
-    </div>
-    <div class="card">
-        <img class="card-img-top" src="Images/Printing-02.png" alt="Card image cap" style="height: 350px;">
-        <div class="card-body">
-            <h5 class="card-title" style="font-size:15px;">Web development</h5>
-            <p class="card-text" style="font-size:15px;">This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content than the first to show that equal
-                height action.</p>
-        </div>
-    </div>
-</div>
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+    <div class="container">
+        <h1 class="text-center">We Basically Work On:</h1>
+        <div class="row text-center">
 
-<div class="card text-center">
-    <div class="col-md-12">
-
-        <div class=col-md-6>
-            <img class="card-img-top" src="Images/Printing-02.png" alt="Card image cap" style="height: 350px;">
-            <div class="card-body">
-                <h5 class="card-title" style="font-size:15px;">Printing</h5>
-                <p class="card-text" style="font-size:15px;">This card has supporting text below as a natural
-                    lead-in to additional content.</p>
+            <div class="col-sm-8">
+                <div class="thumbnail">
+                    <span><img src="Images/eyes.jpg" alt="img" style="height:350px;"></span>
+                    <span>
+                        <p><strong>Graphics Design</strong></p>
+                        <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.
+                            The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
+                            early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
+                            that goods were objects of value over which ownership rights could be established and exchanged. Ownership
+                            implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
+                            could be stored after production and subsequently exchanged for money or other items of value.
+                            The latter, however useful or necessary, created services that perishe</p>
+                    </span>
+                </div>
             </div>
-        </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Images/love.png" alt="img" style="height:350px;">
 
-
-        <div class=col-md-6>
-            <img class="card-img-top" src="Images/Printing-02.png" alt="Card image cap"
-                style="height: 350px; width:500px">
-            <div class="card-body">
-                <h5 class="card-title" style="font-size:15px;">Photography</h5>
-                <p class="card-text" style="font-size:15px;">This card has supporting text below as a natural
-                    lead-in to additional content.</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="Images/digital.jpg" alt="img" style="height:300px;">
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <p><strong>Graphics Design</strong></p>
+                    <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit longer.
+                        The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
+                        early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
+                        that goods were objects of value over which ownership rights could be established and exchanged. Ownership
+                        implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="Images/SEO.jpg" alt="img" style="height:300px;">
+
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <p><strong>Graphics Design</strong></p>
+                    <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit longer.
+                        The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
+                        early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
+                        that goods were objects of value over which ownership rights could be established and exchanged. Ownership
+                        implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <div class="career-footer text-center">
