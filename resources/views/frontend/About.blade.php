@@ -108,7 +108,7 @@
 
 <!-- start of team  -->
 <div class="container">
-  <div class="col-md-12" style="text-align:center; font-size:larger">
+  <div class="col-md-12" style="text-align:center; font-size:larger; padding:1% 1% 2% 1%">
     <h1>Team Information</h1>
     <div class="teaminfo">
       Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your
@@ -121,7 +121,7 @@
 
     <h2>Our Members</h2>
 
-    <div class="col-md-3" style="padding:1% 1% 1% 1%">
+    <div class="col-md-3">
       <img src="Images/dummy.jpg" height="100%" width="100%" />
       <h3>Dummy name</h3>
       <h4>CEO - Pontoon</h4>

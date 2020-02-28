@@ -6,12 +6,12 @@
     {{-- About page Info --}}
     <div class="about col-md-12 text-center">
         <h1>WE HELP YOU TO DIGITIZE YOUR BUSINESS ENVIRONMENT THROUGH ADVERTISEMENT AND MARKETING</h1>
+        <p>With Pontoon You Can Make Your Business Go Viral On Internet And Make Them Visible To Your Clients And
+            Other Market Holders. Check Out What We Do </p>
         <div class="col-md-2"></div>
         <div class="vid col-md-8">
-            <p>With pontoon you can make your business go viral on internet and make them visible to your clients and
-                other market holders. Check out what we do</p>
             <div class="videos">
-                <video src="Images/abc.mp4" controls height="400" width="100%"></video>
+                <video src="Images/abc.mp4" controls height="100%" width="100%"></video>
             </div>
 
         </div>

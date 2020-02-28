@@ -31,5 +31,5 @@
 
 </head>
 
-<body background="Images/Background-01.png">
+<body>
     @endsection
