@@ -92,7 +92,7 @@
 
 <!-- {{-- CAREER Info --}} -->
 <div class="careers">
-    <div class="col-md-6">
+    <div class="col-md-9">
         <div class="career-head">
             YOUR CAREER AT PONTOON
         </div>
@@ -101,27 +101,8 @@
             <a href="{{route('Career')}}" class="btn btn-danger btn-lg">Join Now</a>
         </div>
     </div>
-    <div class="col-lg-6" style="padding:4% 4% 4% 4%">
-        <div class="col-md-2">
-            
-        </div>
-        <div class="col-md-2">
-            <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
-        </div>
-        <div class="col-md-2">
-            
-        </div>
-    </div>
-    <div class="col-md-6" style="padding:0% 4% 4% 4%">
-        <div class="col-md-2">
-            <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
-        </div>
-        <div class="col-md-2">
-            It's up to you!!!
-        </div>
-        <div class="col-md-2">
-            <img src="Images/Events_Marketting_Management-01.jpg" height="100%" width="100%">
-        </div>
+    <div class="col-md-3">
+        <img src="Images/abut.jpg" height="100%" width="100%">
     </div>
 </div>
 
@@ -135,63 +116,58 @@
 
     <div id="facilities" class="container-fluid text-center">
         <h1>Clients We have Engaged With!!!</h1>
-        <br>
-        <div class="customer">
-            <div class="col-lg-12">
 
+    </div>
+</div>
 
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>Global Guidelines</h3>
-                </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner col-md-12">
+        <div class="carousel-item active">
+            <span class="col-md-3">
+                <img src="Images/about.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/about.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/about.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/about.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+        </div>
+        <div class="carousel-item">
+            <span class="col-md-3">
+                <img src="Images/abut.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/abut.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/abut.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+            <span class="col-md-3">
+                <img src="Images/abut.jpg" alt="Los Angeles" width="100%" height="100%">
+            </span>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
 
+    <!-- end of client info -->
 
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>S.K Nepal</h3>
-                </div>
-
-
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>OnTrack Education</h3>
-                </div>
-
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>Nepal Swarnakar Samiti</h3>
-                </div>
-            </div>
-
-            <div class="col-lg-12">
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>Eatbix</h3>
-                </div>
-
-
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>MayaMee Beauty Parlor</h3>
-                </div>
-
-
-                <!--start of  contact page -->
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>Khana Sabailai</h3>
-                </div>
-
-                <div class="col-lg-3 glyphicon glyphicon-user logo-small">
-                    <h3>Khaipasal</h3>
-                </div>
-            </div>
+    <!--start of  contact page -->
+    <div class="contact text-center">
+        <div class="col-lg-12">
+            <h3>Get In Touch With Us</h3>
+            <p>We will provide you all the required services </p>
+            <a href="{{route('Contact')}}" class="btn btn-danger btn-lg">ContactUs</a>
         </div>
     </div>
-</div>
-<!-- end of client info -->
 
-<!--start of  contact page -->
-<div class="contact text-center">
-    <div class="col-lg-12">
-        <h3>Get In Touch With Us</h3>
-        <p>We will provide you all the required services </p>
-        <a href="{{route('Contact')}}" class="btn btn-success btn-lg">ContactUs</a>
-    </div>
-</div>
-
-<!-- end of contact page -->
-@endsection
+    <!-- end of contact page -->
+    @endsection

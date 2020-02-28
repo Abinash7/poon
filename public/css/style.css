@@ -184,14 +184,14 @@ nav ul li.active a{
 }
 .contact .col-lg-12{
     padding: 3% 30px 3% 30px;
-    background-color: whitesmoke;
+    background-color: #3d2160;
     color: #7bbd43;
     font-size: x-large;
 }
 
 /* Career Info */
 
-.careers .col-md-6 .career-head{
+.careers .col-md-9 .career-head{
     background: transparent;
     padding-left: 12%;
     padding-top: 12%;
@@ -202,12 +202,18 @@ nav ul li.active a{
     color: #7bbd43;
 }
 
-.careers .col-md-6 .career-body{
+.careers .col-md-9 .career-body{
     padding-left: 12%;
     font-weight: lighter;
     font-size: large;
     font-style: initial;
     color: #3d2160;
+}
+
+.careers .col-md-3{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-right: 4%;
 }
 /* contact */
 .contactinfo{
@@ -216,6 +222,23 @@ nav ul li.active a{
 /* Client worked */
 #services{
     padding:2% 25px 2% 25px;
+}
+
+.carousel-inner{
+background-color: whitesmoke;
+padding: 2% 2% 2% 2%;
+
+
+}
+
+.carousel-inner img {
+    width: 40%;
+    height: 100%;    
+    
+}
+
+.carousel-item .col-md-3{
+    padding-right: 5%;
 }
 
 /* video Home */
@@ -269,11 +292,9 @@ padding-left: 2%;
 
 }
 
-
-
 .social{
     padding: 2% 2% 2% 2%;
-    color: #3d2160;
+    color: #000;
     /* margin-left: -7%; */
 }
 
@@ -300,11 +321,5 @@ padding-left: 2%;
       font-weight: bold;
       font-size: xx-large;
       font-family: 'Times New Roman', Times, serif;
-}
-
-#facilities .customer .col-lg-12 {
-    background-color: #fff !important;
-    padding-right: 20%;
-    font-family: 'Times New Roman', Times, serif;
-    
+      padding: 1% 1% 1% 1%;
 }

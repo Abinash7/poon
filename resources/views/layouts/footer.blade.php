@@ -36,10 +36,10 @@
         <div class="col-lg-4">
             <div class="social">
                 <span><a href="https://www.facebook.com/pontoonads/"><i
-                            class="fa fa-facebook-square fa-2x social"></i></a></span>
+                            class="fa fa-facebook-square fa-3x social"></i></a></span>
                 <span><a href="https://www.instagram.com/pontoonads/"><i
-                            class="fa fa-instagram fa-2x social"></i></a></span>
-                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-2x social"></i></a></span>
+                            class="fa fa-instagram fa-3x social"></i></a></span>
+                <span><a href="mailto:pontoonadcon@gmail.com"><i class="fa fa-envelope fa-3x social"></i></a></span>
             </div>
         </div>
     </div>
@@ -60,6 +60,6 @@
 <script src="js/style.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script src="assets/js/jquery-3.3.1.min.js"></script>
 </html>
 @stop

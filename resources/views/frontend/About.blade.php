@@ -121,7 +121,7 @@
 
     <h2>Our Members</h2>
 
-    <div class="col-md-3">
+    <div class="col-md-3" style="padding:1% 1% 1% 1%">
       <img src="Images/dummy.jpg" height="100%" width="100%" />
       <h3>Dummy name</h3>
       <h4>CEO - Pontoon</h4>

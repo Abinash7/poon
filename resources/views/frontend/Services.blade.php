@@ -33,37 +33,89 @@
 
 
 <!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
-    <div class="container">
-        <h1 class="text-center">We Basically Work On:</h1>
-        <div class="row text-center">
 
-            <div class="col-sm-8">
-                <div class="thumbnail">
-                    <span><img src="Images/eyes.jpg" alt="img" style="height:350px;"></span>
-                    <span>
-                        <p><strong>Graphics Design</strong></p>
-                        <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.
-                            The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
-                            early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
-                            that goods were objects of value over which ownership rights could be established and exchanged. Ownership
-                            implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
-                            could be stored after production and subsequently exchanged for money or other items of value.
-                            The latter, however useful or necessary, created services that perishe</p>
-                    </span>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="Images/love.png" alt="img" style="height:350px;">
-
-                </div>
-            </div>
+<div class="container">
+    <div class="col-md-12">
+        <div class="col-md-6" style="border:groove">
+            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
+            <h4>Graphics Design</h4>
+            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+                The distinction between a good and a service remains disputed. The perspective in the
+                late-eighteenth and
+                early-nineteenth centuries focused on creation and possession of wealth. Classical
+                economists contended
+                that goods were objects of value over which ownership rights could be established and
+                exchanged. Ownership
+                implied tangible possession of an object what he termed "productive" and "unproductive"
+                labor. The former, he stated, produced goods that
+                could be stored after production and subsequently exchanged for money or other items of
+                value.
+                The latter, however useful or necessary, created services that perishe</p>
         </div>
+        <div class="col-md-6" style="border:groove">
+            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 2%"></span>
+            <h4>Graphics Design</h4>
+            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+                The distinction between a good and a service remains disputed. The perspective in the
+                late-eighteenth and
+                early-nineteenth centuries focused on creation and possession of wealth. Classical
+                economists contended
+                that goods were objects of value over which ownership rights could be established and
+                exchanged. Ownership
+                implied tangible possession of an object what he termed "productive" and "unproductive"
+                labor. The former, he stated, produced goods that
+                could be stored after production and subsequently exchanged for money or other items of
+                value.
+                The latter, however useful or necessary, created services that perishe</p>
+        </div>
+        <div class="col-md-6" style="border:groove">
+            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
+            <h4>Graphics Design</h4>
+            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+                The distinction between a good and a service remains disputed. The perspective in the
+                late-eighteenth and
+                early-nineteenth centuries focused on creation and possession of wealth. Classical
+                economists contended
+                that goods were objects of value over which ownership rights could be established and
+                exchanged. Ownership
+                implied tangible possession of an object what he termed "productive" and "unproductive"
+                labor. The former, he stated, produced goods that
+                could be stored after production and subsequently exchanged for money or other items of
+                value.
+                The latter, however useful or necessary, created services that perishe</p>
+        </div>
+        <div class="col-md-6" style="border:groove">
+            <span class="col-md-3"><img src="Images/eyes.jpg" alt="img" width="100%" height="100%" style="padding:6% 0% 6% 0%"></span>
+            <h4>Graphics Design</h4>
+            <p style="font-size:smaller">This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit longer.
+                The distinction between a good and a service remains disputed. The perspective in the
+                late-eighteenth and
+                early-nineteenth centuries focused on creation and possession of wealth. Classical
+                economists contended
+                that goods were objects of value over which ownership rights could be established and
+                exchanged. Ownership
+                implied tangible possession of an object what he termed "productive" and "unproductive"
+                labor. The former, he stated, produced goods that
+                could be stored after production and subsequently exchanged for money or other items of
+                value.
+                The latter, however useful or necessary, created services that perishe</p>
+        </div>
+
+        {{-- <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="Images/love.png" alt="img" style="height:350px;">
+
+            </div>
+        </div> --}}
     </div>
 </div>
 
+
+{{-- 
 
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-1">
@@ -78,12 +130,21 @@
             <div class="col-sm-3">
                 <div class="thumbnail">
                     <p><strong>Graphics Design</strong></p>
-                    <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
+                    <p style="background-color:green; height:300px">This is a wider card with supporting text below
+                        as a
+                        natural
                         lead-in to additional content. This content is a little bit longer.
-                        The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
-                        early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
-                        that goods were objects of value over which ownership rights could be established and exchanged. Ownership
-                        implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
+                        The distinction between a good and a service remains disputed. The perspective in the
+                        late-eighteenth and
+                        early-nineteenth centuries focused on creation and possession of wealth. Classical
+                        economists
+                        contended
+                        that goods were objects of value over which ownership rights could be established and
+                        exchanged.
+                        Ownership
+                        implied tangible possession of an object what he termed "productive" and "unproductive"
+                        labor.
+                        The former, he stated, produced goods that
                     </p>
                 </div>
             </div>
@@ -97,18 +158,27 @@
             <div class="col-sm-3">
                 <div class="thumbnail">
                     <p><strong>Graphics Design</strong></p>
-                    <p style="background-color:green; height:300px">This is a wider card with supporting text below as a natural
+                    <p style="background-color:green; height:300px">This is a wider card with supporting text below
+                        as a
+                        natural
                         lead-in to additional content. This content is a little bit longer.
-                        The distinction between a good and a service remains disputed. The perspective in the late-eighteenth and
-                        early-nineteenth centuries focused on creation and possession of wealth. Classical economists contended
-                        that goods were objects of value over which ownership rights could be established and exchanged. Ownership
-                        implied tangible possession of an object what he termed "productive" and "unproductive" labor. The former, he stated, produced goods that
+                        The distinction between a good and a service remains disputed. The perspective in the
+                        late-eighteenth and
+                        early-nineteenth centuries focused on creation and possession of wealth. Classical
+                        economists
+                        contended
+                        that goods were objects of value over which ownership rights could be established and
+                        exchanged.
+                        Ownership
+                        implied tangible possession of an object what he termed "productive" and "unproductive"
+                        labor.
+                        The former, he stated, produced goods that
                     </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 

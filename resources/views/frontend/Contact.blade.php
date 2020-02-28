@@ -40,8 +40,7 @@
                      pontoonadcon@gmail.com</a></i></dd>
          </dl>
          <dl class="contact-list">
-            <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a> <span>or</span> <a
-                     href="tel:+977-9851207718">+977-9851207718</a></i>
+            <dd><i class="fa fa-phone"><a href="tel:01-4425327"> 01-4425327</a></i>
             </dd>
          </dl>
       </div>
