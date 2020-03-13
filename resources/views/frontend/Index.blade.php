@@ -1,7 +1,7 @@
 @php $title = "Home|Pontoon" @endphp
 @extends('master.master')
 @section('content')
-<img class="image" src="Images/hello.jpg" width="100%" height="100%">
+<img class="image" src="Images/Home-01.jpg" width="100%" height="100%">
 <div class="content">
     {{-- About page Info --}}
     <div class="about col-md-12 text-center">
@@ -18,75 +18,71 @@
         <div class="col-md-2"></div>
 
     </div>
-
 </div>
+
 <!--  start of services -->
+<div class="index_services">
+    <div class="col-lg-12 text-center">
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Motion Design</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
+        </div>
 
-<div class="services col-lg-12" id="services">
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Graphics Design</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
+        </div>
 
-    <div class="row text-center">
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/web.png" alt="icons" style="height:100px;">
-                <h4>Web Development </h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Digital Marketing</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/graphics.png" alt="icons" style="height:100px;">
-                <h4>Graphic Design</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Motion Design</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/graphics.png" alt="icons" style="height:100px;">
-                <h4>Motion Design</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
+
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Graphics Design</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/photography.png" alt="icons" style="height:100px;">
-                <h4>Photography</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/printing.png" alt="icons" style="height:100px;">
-                <h4>Printing</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <!-- Single Service -->
-            <div class="single-service">
-                <img src="Images/graphics.png" alt="icons" style="height:100px;">
-                <h4>Graphic Design</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting
-                    industry </p>
-            </div>
-        </div>
-        <div class="container">
-            <a href="{{route('Services')}}" button type="button" class="display btn btn-danger btn-lg">More About
-                Services</button></a>
+
+        <div class="col-lg-3">
+            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+            <h2><strong>Digital Marketing</strong></h2>
+            <p>As digital technologies continue to create innovations in the world of experiential graphic design,
+                motion design is becoming an increasingly important competency. Essentially, motion design is a
+                discipline that applies graphic design principles to filmmaking and video production through use of
+                animation and visual effects. Examples include films, videos, animated text, and web-based animations
+                and apps. </p>
         </div>
     </div>
-
 </div>
-
 <!-- end of services -->
 
 
@@ -98,7 +94,7 @@
         </div>
         <div class="career-body">
             <p>Do you want to be a part of this company?? Come on let's build it together...</p>
-            <a href="{{route('Career')}}" class="btn btn-danger btn-lg">Join Now</a>
+            <a href="{{route('Career')}}">Join Now</a>
         </div>
     </div>
     <div class="col-md-3">
@@ -120,7 +116,7 @@
     </div>
 </div>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
+{{-- <div id="demo" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner col-md-12">
         <div class="carousel-item active">
             <span class="col-md-3">
@@ -157,17 +153,111 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
+</div> --}}
 
-    <!-- end of client info -->
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+            <div class="carousel-item col-md-3  active">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 1" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1"
+                                alt="slide 1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2"
+                                alt="slide 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 4" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3"
+                                alt="slide 3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 5" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4"
+                                alt="slide 4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 6" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5"
+                                alt="slide 5">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 7" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6"
+                                alt="slide 6">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 8" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7"
+                                alt="slide 7">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3  ">
+                <div class="panel panel-default">
+                    <div class="panel-thumbnail">
+                        <a href="#" title="image 2" class="thumb">
+                            <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8"
+                                alt="slide 8">
+                        </a>
+                    </div>
 
-    <!--start of  contact page -->
-    <div class="contact text-center">
-        <div class="col-lg-12">
-            <h3>Get In Touch With Us</h3>
-            <p>We will provide you all the required services </p>
-            <a href="{{route('Contact')}}" class="btn btn-danger btn-lg">ContactUs</a>
+                </div>
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+</div>
+<!--start of  contact page -->
+<div class="contact text-center">
+    <div class="col-lg-12">
+        <h3>Get In Touch With Us</h3>
+        <p>We will provide you all the required services </p>
+        <a href="{{route('Contact')}}">ContactUs</a>
+    </div>
+</div>
 
-    <!-- end of contact page -->
-    @endsection
+<!-- end of contact page -->
+@endsection

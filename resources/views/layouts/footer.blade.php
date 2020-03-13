@@ -7,6 +7,7 @@
         </div>
         <div class="col-lg-3">
             {{-- <h3>Contacts</h3> --}}
+            <br>
             <dl class="contact-list">
                 <dd><i class="fa fa-map-marker"> New Baneshwor, Kathmandu, Nepal</i></dd>
                 <dd></dd>

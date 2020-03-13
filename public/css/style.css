@@ -70,10 +70,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    /* color: #7bbd43; */
-    font-size: small;
+    color: #7bbd43;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     
+}
+
+nav ul li a:hover{
+    font-size: 17px;
+    text-decoration: none;
+    color: #7bbd43;
 }
 
 .menu-icon {
@@ -136,19 +142,31 @@ nav ul li a {
 
 /* Side Button */
 .sidebutton{
-    padding-top: 20%;
-    margin-left: -3%;
+
     position: fixed;
-    /* -ms-transform: rotate(90deg); /* IE 9 */
-   /*transform: rotate(90deg); */
+    -ms-transform: rotate(270deg); /* IE 9 */
+   transform: rotate(270deg);
     z-index: 300;
+    margin-left: -3%;
+    margin-top: 20%;
+    background-color: #ef5454;
+    padding: 1% 1.5% 1% 1.5%;
+}
+
+.sidebutton:hover{
+    background-color: #7bbd43;
 }
 
 .sidebutton a{  
-    -ms-transform: rotate(270deg); /* IE 9 */
-    transform: rotate(270deg);
-   font-size: large; 
+   font-size: large;
+   color: #fff; 
 }
+
+.sidebutton a:hover{  
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+ }
 
 /* Homepage-About */
 .about {
@@ -163,6 +181,28 @@ nav ul li a {
     color: #fff;
 } */
 
+/* Index-Services */
+.index_services .col-lg-12{
+    padding: 2% 2% 2% 7%;
+}
+
+@media(max-width: 786px){
+    .index_services .col-lg-12{
+        padding: 2% 2% 2% 2%;
+    }
+}
+
+.index_services .col-lg-12 .col-lg-3{
+    background-color: #fff;
+    color: #7bbd43;
+    padding: 2% 2% 2% 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 8%;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* copyright */
 .reserved-bot{
    
@@ -171,9 +211,7 @@ nav ul li a {
 
 /* end of copyright */
 /* contact */
-.card{
-    color: #7a4198;
-}
+
 .contact .col-lg-12{
     padding: 3% 30px 3% 30px;
     background-color: #3d2160;
@@ -181,6 +219,19 @@ nav ul li a {
     font-size: x-large;
 }
 
+.contact .col-lg-12 a:hover{
+
+    background-color: #7bbd43;
+
+}
+
+.contact .col-lg-12 a{
+    color: #fff;
+    padding: 1% 1% 1% 1%;
+    background-color: #ef5454;
+    font-size: small;
+    text-decoration: none;
+}
 /* Career Info */
 
 .careers .col-md-9 .career-head{
@@ -202,6 +253,18 @@ nav ul li a {
     color: #3d2160;
 }
 
+.careers .col-md-9 .career-body a{
+    background-color: #ef5454;
+    color: #fff;
+    padding: 1% 1.5% 1% 1.5%;
+    font-size: small;
+}
+
+.careers .col-md-9 .career-body a:hover{
+    background-color: #7bbd43;
+    text-decoration: none;
+}
+
 .careers .col-md-3{
     padding-top: 3%;
     padding-bottom: 2%;
@@ -214,13 +277,26 @@ nav ul li a {
 /* Client worked */
 #services{
     padding:2% 25px 2% 25px;
+    text-align: center;
+}
+
+.services a{
+    background-color: #ef5454;
+    color: #fff;    
+    padding: 1% 1.5% 1% 1.5%;
+    font-size: small;
+}
+
+.services a:hover{
+    background-color: #7bbd43;
+   text-decoration: none;  
+   color: #fff; 
+
 }
 
 .carousel-inner{
 background-color: whitesmoke;
 padding: 2% 2% 2% 2%;
-
-
 }
 
 .carousel-inner img {
@@ -231,6 +307,7 @@ padding: 2% 2% 2% 2%;
 
 .carousel-item .col-md-3{
     padding-right: 5%;
+    margin-bottom: 1%;
 }
 
 /* video Home */
@@ -298,12 +375,12 @@ padding-left: 2%;
 
 .services .col-lg-3{
     padding: 1% 0% 1% 1%;
-    background-color: #7bbd43;
-    opacity: 1;
-    color: #fff;
+    background-color: #fff;
+    color: #7bbd43;
     font-size: small;
     border:dotted;
-    margin:1% 0% 1% 6%;
+    margin:1% 0% 2% 6%;
+    width: 20%;
 }
 
 #facilities h1 {
@@ -312,4 +389,6 @@ padding-left: 2%;
       font-size: xx-large;
       font-family: 'Times New Roman', Times, serif;
       padding: 1% 1% 1% 1%;
-}
+    }
+
+

@@ -6,21 +6,22 @@
   <div class="row text-center">
     <div class="col-md-6 content1-left">
       <h1>About Pontoon<span class="blinker">?</span></h1>
-      <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
-        Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
-        Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
-        Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+      <p>We have been providing services on digital marketing for our clients since 2016. We assure you about the
+        effective work of our association. Though we are not so known Advertising agency, still we assure you of
+        getting the result you have been looking for by providing the best landscape for your brands and business
+        to reach their marketing goals. We are optimistic about being the best support for our partner to establish
+        their entity abd the products in the market.
       </p>
       <!-- <div class="content1-left"></div> -->
     </div>
     <div class="col-md-6 content1-right">
-      <h3>Why Our client work with us</h3>
-      <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your
-        ideas or build your entire app with our Sass variables and mixins,
-        responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
-        Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your
-        ideas or build your entire app with our Sass variables and mixins,
-        responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+      <h3>Benefits of working with us</h3>
+      <p>We understand that task achieved with the team effort is more flourishing and trust-worthy. We believe in
+        coming together, discussing things among each-other and then work together. Here in our company we believe in
+        binding team together by bringing the team members closer to achieve our target. We work very transparently
+        among each other and respect the valur of privacy well. We, ourselves are the great assets among other while
+        working on a signed tasks. 
+      </p>
     </div>
   </div>
 </div>
@@ -111,12 +112,11 @@
   <div class="col-md-12" style="text-align:center; font-size:larger; padding:1% 1% 2% 1%">
     <h1>Team Information</h1>
     <div class="teaminfo">
-      Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your
-      ideas or build your entire app with our Sass variables and mixins,
-      responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
-      Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your
-      ideas or build your entire app with our Sass variables and mixins,
-      responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+      Being an advertising company we understand the importance of standard of excellence in the marketing of the 
+      entities and the products. We have clear and elevating goal and our team takes the initative in order to get
+      the result-driven work. Though we have best technical team in our company we still take the dissenting opinion
+      of our clients about how and where they vision their product and the name of theirs company in the market. Our
+      competent members work under realistic deadline to meet the targeted goal. 
     </div>
 
     <h2>Our Members</h2>
