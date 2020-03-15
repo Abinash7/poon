@@ -1,7 +1,7 @@
 @php $title = "About|Pontoon" @endphp
 @extends('master.master')
 @section('content')
-<img class="image" src="Images/about.jpg" width="100%" height="100%">
+<img class="image" src="Images/about_us3-01.jpg" width="100%" height="100%">
 <div class="container-fluid home-content1">
   <div class="row text-center">
     <div class="col-md-6 content1-left">

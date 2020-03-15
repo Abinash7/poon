@@ -5,15 +5,17 @@
     font-weight: 700;
     padding: 2% 2% 2% 2%;
 }
-.col-lg-5{
-    background-color: #7bbd43;
-    margin-bottom: 30px;
-    font-size: small;
+
+.career1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
+
 .col-lg-7{
+    padding-top: 7%;
     color: #7a4198;
     font-size: small;
-    margin-bottom: 30px;
+
 }
 
 .career-footer{

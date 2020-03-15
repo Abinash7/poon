@@ -23,6 +23,7 @@
 <!--  start of services -->
 <div class="index_services">
     <div class="col-lg-12 text-center">
+        <h1><strong>We Provide Services On:</strong></h1>
         <div class="col-lg-3">
             <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
             <h2><strong>Motion Design</strong></h2>
@@ -81,6 +82,7 @@
                 animation and visual effects. Examples include films, videos, animated text, and web-based animations
                 and apps. </p>
         </div>
+        <a href="{{route('Services')}}">Find More</a>
     </div>
 </div>
 <!-- end of services -->

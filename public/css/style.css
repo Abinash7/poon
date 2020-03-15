@@ -72,6 +72,7 @@ nav ul li a {
     text-decoration: none;
     color: #7bbd43;
     font-size: 16px;
+    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -203,6 +204,23 @@ nav ul li a:hover{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.index_services h1{
+    color: #7bbd43;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.index_services a{
+    background-color: #ef5454;
+    color: #fff;
+    font-size: 14px;
+    padding: 1% 1% 1% 1%;
+}
+
+.index_services a:hover{
+    color: #fff;
+    background-color: #7bbd43;
+    text-decoration: none;
+}
 /* copyright */
 .reserved-bot{
    

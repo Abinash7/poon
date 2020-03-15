@@ -2,21 +2,20 @@
 @extends('master.master')
 @section('content')
 <section class="career">
-  <img src="Images/career.png" width="100%" height="450px">
+  <img src="Images/career1.jpg" width="100%" height="450px">
 
   <div class="container text-center">
     <div class="title">Your Career At Pontoon:</div>
+    <div class="career1"> We gurantee on having the best working environment for everyone that could either be executive with years of
+      experience or recent alumini. We assure you that working at Pontoon does not mean you are working for us
+      in-fact it means you're working along with us. We believe in empowering and encouraging new-comers and also
+      respect the efforts, ideas and contribution equally because we believe on our peoples being the most effective
+      and essential raw materials for our company. Everyone gets maximum autonomy to make an impact while performing
+      any sorts of tasks. We are always eagerly waiting to welcome the passionate fresher's who can aggregate analouge
+      and justific analytic aptitude along with inventiveness. </div>
+
     <div class="col-lg-5">
-      <h1>Career</h1>
-      
-        We gurantee on having the best working environment for everyone that could either be executive with years of
-        experience or recent alumini. We assure you that working at Pontoon does not mean you are working for us 
-        in-fact it means you're working along with us. We believe in empowering and encouraging new-comers and also
-        respect the efforts, ideas and contribution equally because we believe on our peoples being the most effective
-        and essential raw materials for our company. Everyone gets maximum autonomy to make an impact while performing
-        any sorts of tasks. We are always eagerly waiting to welcome the passionate fresher's who can aggregate analouge
-        and justific analytic aptitude along with inventiveness. 
-      
+      <img src="Images/Career1.png" height="100%" width="100%">
     </div>
     <div class="col-lg-7">
       <form method="post" class="contactform" action="{{route('Career')}}">
