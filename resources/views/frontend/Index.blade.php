@@ -22,16 +22,20 @@
 
 <!--  start of services -->
 <div class="index_services">
-    <div class="col-lg-12 text-center">
+    <div class="col-lg-12">
         <h1><strong>We Provide Services On:</strong></h1>
-        <div class="col-lg-3">
-            <img src="Images/graphics.png" alt="Motion Design" height="100%" width="100%">
+        <div class="col-lg-6">
+            <img src="Images/Branding&Creative_Design-04.png" alt="Motion Design" height="60%" width="70%">
+        </div>
+        <div class="col-lg-6">
             <h2><strong>Motion Design</strong></h2>
             <p>As digital technologies continue to create innovations in the world of experiential graphic design,
                 motion design is becoming an increasingly important competency. Essentially, motion design is a
                 discipline that applies graphic design principles to filmmaking and video production through use of
                 animation and visual effects. Examples include films, videos, animated text, and web-based animations
-                and apps. </p>
+                and apps.            
+            </p>
+            <a href="{{route('Career')}}">Read More</a>
         </div>
 
         <div class="col-lg-3">

@@ -6,10 +6,12 @@ html, body {
     padding: 0;
 }
 
-body {
+body{
+    content: "";
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
-    background-image: url("../Images/Background-01.png");
+    background-image: url("../Images/back.png");
+    background-size: contain;
 }
 
 header {
@@ -139,6 +141,16 @@ nav ul li a:hover{
         text-align: center;
     }
 
+    .about p{
+        font-size: 12px;
+        line-height: normal;
+        padding: 0%;
+    }
+
+    .about h1{
+        font-size: 14px;
+    }
+
 }
 
 /* Side Button */
@@ -184,7 +196,9 @@ nav ul li a:hover{
 
 /* Index-Services */
 .index_services .col-lg-12{
-    padding: 2% 2% 2% 7%;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+
 }
 
 @media(max-width: 786px){
@@ -193,15 +207,20 @@ nav ul li a:hover{
     }
 }
 
-.index_services .col-lg-12 .col-lg-3{
-    background-color: #fff;
+.index_services .col-lg-12{ 
+    background-color: rgba(61, 33, 96, 0.95) !important;
+}
+.index_services .col-lg-12 .col-lg-6 h2{
     color: #7bbd43;
-    padding: 2% 2% 2% 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 8%;
-    font-size: small;
+    padding-top: 18%;
+}
+.index_services .col-lg-12 .col-lg-6{
+    /* background-color: #fff; */
+    color: #fff;
+    font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
 }
 
 .index_services h1{
@@ -401,12 +420,12 @@ padding-left: 2%;
     width: 20%;
 }
 
-#facilities h1 {
+#facilities h1 {    
       color: #7bbd43;
       font-weight: bold;
       font-size: xx-large;
       font-family: 'Times New Roman', Times, serif;
       padding: 1% 1% 1% 1%;
-    }
+}
 
 
